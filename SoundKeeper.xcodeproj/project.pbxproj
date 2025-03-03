@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8A585B912D721EBE00BC8EDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A585B772D721EBD00BC8EDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A585B7E2D721EBD00BC8EDC;
+			remoteInfo = "Brinks of Audio";
+		};
+		8A585B9B2D721EBE00BC8EDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A585B772D721EBD00BC8EDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A585B7E2D721EBD00BC8EDC;
+			remoteInfo = "Brinks of Audio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A585B7F2D721EBD00BC8EDC /* SoundKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A585B902D721EBE00BC8EDC /* SoundKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A585B9A2D721EBE00BC8EDC /* SoundKeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundKeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8A585B812D721EBD00BC8EDC /* Brinks of Audio */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Brinks of Audio";
+			sourceTree = "<group>";
+		};
+		8A585B932D721EBE00BC8EDC /* Brinks of AudioTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Brinks of AudioTests";
+			sourceTree = "<group>";
+		};
+		8A585B9D2D721EBE00BC8EDC /* Brinks of AudioUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Brinks of AudioUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A585B7C2D721EBD00BC8EDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A585B8D2D721EBE00BC8EDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A585B972D721EBE00BC8EDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A585B762D721EBD00BC8EDC = {
+			isa = PBXGroup;
+			children = (
+				8A585B812D721EBD00BC8EDC /* Brinks of Audio */,
+				8A585B932D721EBE00BC8EDC /* Brinks of AudioTests */,
+				8A585B9D2D721EBE00BC8EDC /* Brinks of AudioUITests */,
+				8A585B802D721EBD00BC8EDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A585B802D721EBD00BC8EDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A585B7F2D721EBD00BC8EDC /* SoundKeeper.app */,
+				8A585B902D721EBE00BC8EDC /* SoundKeeperTests.xctest */,
+				8A585B9A2D721EBE00BC8EDC /* SoundKeeperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A585B7E2D721EBD00BC8EDC /* SoundKeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A585BA42D721EBE00BC8EDC /* Build configuration list for PBXNativeTarget "SoundKeeper" */;
+			buildPhases = (
+				8A585B7B2D721EBD00BC8EDC /* Sources */,
+				8A585B7C2D721EBD00BC8EDC /* Frameworks */,
+				8A585B7D2D721EBD00BC8EDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8A585B812D721EBD00BC8EDC /* Brinks of Audio */,
+			);
+			name = SoundKeeper;
+			packageProductDependencies = (
+			);
+			productName = "Brinks of Audio";
+			productReference = 8A585B7F2D721EBD00BC8EDC /* SoundKeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A585B8F2D721EBE00BC8EDC /* SoundKeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A585BA72D721EBE00BC8EDC /* Build configuration list for PBXNativeTarget "SoundKeeperTests" */;
+			buildPhases = (
+				8A585B8C2D721EBE00BC8EDC /* Sources */,
+				8A585B8D2D721EBE00BC8EDC /* Frameworks */,
+				8A585B8E2D721EBE00BC8EDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A585B922D721EBE00BC8EDC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8A585B932D721EBE00BC8EDC /* Brinks of AudioTests */,
+			);
+			name = SoundKeeperTests;
+			packageProductDependencies = (
+			);
+			productName = "Brinks of AudioTests";
+			productReference = 8A585B902D721EBE00BC8EDC /* SoundKeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A585B992D721EBE00BC8EDC /* SoundKeeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A585BAA2D721EBE00BC8EDC /* Build configuration list for PBXNativeTarget "SoundKeeperUITests" */;
+			buildPhases = (
+				8A585B962D721EBE00BC8EDC /* Sources */,
+				8A585B972D721EBE00BC8EDC /* Frameworks */,
+				8A585B982D721EBE00BC8EDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A585B9C2D721EBE00BC8EDC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8A585B9D2D721EBE00BC8EDC /* Brinks of AudioUITests */,
+			);
+			name = SoundKeeperUITests;
+			packageProductDependencies = (
+			);
+			productName = "Brinks of AudioUITests";
+			productReference = 8A585B9A2D721EBE00BC8EDC /* SoundKeeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A585B772D721EBD00BC8EDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					8A585B7E2D721EBD00BC8EDC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					8A585B8F2D721EBE00BC8EDC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8A585B7E2D721EBD00BC8EDC;
+					};
+					8A585B992D721EBE00BC8EDC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8A585B7E2D721EBD00BC8EDC;
+					};
+				};
+			};
+			buildConfigurationList = 8A585B7A2D721EBD00BC8EDC /* Build configuration list for PBXProject "SoundKeeper" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A585B762D721EBD00BC8EDC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8A585B802D721EBD00BC8EDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A585B7E2D721EBD00BC8EDC /* SoundKeeper */,
+				8A585B8F2D721EBE00BC8EDC /* SoundKeeperTests */,
+				8A585B992D721EBE00BC8EDC /* SoundKeeperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A585B7D2D721EBD00BC8EDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A585B8E2D721EBE00BC8EDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A585B982D721EBE00BC8EDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A585B7B2D721EBD00BC8EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A585B8C2D721EBE00BC8EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A585B962D721EBE00BC8EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A585B922D721EBE00BC8EDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A585B7E2D721EBD00BC8EDC /* SoundKeeper */;
+			targetProxy = 8A585B912D721EBE00BC8EDC /* PBXContainerItemProxy */;
+		};
+		8A585B9C2D721EBE00BC8EDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A585B7E2D721EBD00BC8EDC /* SoundKeeper */;
+			targetProxy = 8A585B9B2D721EBE00BC8EDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8A585BA22D721EBE00BC8EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A585BA32D721EBE00BC8EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8A585BA52D721EBE00BC8EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Brinks of Audio/Brinks_of_Audio.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Brinks of Audio/Preview Content\"";
+				DEVELOPMENT_TEAM = U73V4Z66UG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "The Sound Keeper";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = elouann.Brinks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8A585BA62D721EBE00BC8EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Brinks of Audio/Brinks_of_Audio.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Brinks of Audio/Preview Content\"";
+				DEVELOPMENT_TEAM = U73V4Z66UG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "The Sound Keeper";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = elouann.Brinks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8A585BA82D721EBE00BC8EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "elouann.Brinks-of-AudioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundKeeper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoundKeeper";
+			};
+			name = Debug;
+		};
+		8A585BA92D721EBE00BC8EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "elouann.Brinks-of-AudioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundKeeper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoundKeeper";
+			};
+			name = Release;
+		};
+		8A585BAB2D721EBE00BC8EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "elouann.Brinks-of-AudioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Brinks of Audio";
+			};
+			name = Debug;
+		};
+		8A585BAC2D721EBE00BC8EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "elouann.Brinks-of-AudioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Brinks of Audio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A585B7A2D721EBD00BC8EDC /* Build configuration list for PBXProject "SoundKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A585BA22D721EBE00BC8EDC /* Debug */,
+				8A585BA32D721EBE00BC8EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A585BA42D721EBE00BC8EDC /* Build configuration list for PBXNativeTarget "SoundKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A585BA52D721EBE00BC8EDC /* Debug */,
+				8A585BA62D721EBE00BC8EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A585BA72D721EBE00BC8EDC /* Build configuration list for PBXNativeTarget "SoundKeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A585BA82D721EBE00BC8EDC /* Debug */,
+				8A585BA92D721EBE00BC8EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A585BAA2D721EBE00BC8EDC /* Build configuration list for PBXNativeTarget "SoundKeeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A585BAB2D721EBE00BC8EDC /* Debug */,
+				8A585BAC2D721EBE00BC8EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A585B772D721EBD00BC8EDC /* Project object */;
+}
